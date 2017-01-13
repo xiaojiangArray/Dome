@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+
+.contior{
+	width: 810px;
+	height: 540px;
+	background-color: #ffffff;
+	margin: 40px auto;
+}
+.contior .top{
+	width: 810px;
+	height: 33px;
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #cccccc;
+	
+}
+.contior .top span{
+	font-size: 16px;
+	position: relative;
+	left: 29px;
+	top: 6px;
+}
+
+.contior .search{
+	width: 810px;
+	height: 60px;
+	line-height: 60px;
+}
+.contior .search input{
+	float: left;
+	margin-left: 155px;
+	margin-top: 18px;
+	width: 200px;
+	height: 25px;
+}
+.contior .search .ch_button{
+	width: 61px;
+	height: 26px;
+	background-color: #3dc0f7;
+	position: absolute;
+	margin-left: 405px;
+	margin-top: 18px;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	-moz-box-shadow:2px 2px 5px  #b4b4b4, 3px 2px 0px #b4b4b4;
+	-webkit-box-shadow:2px 2px 2px #b4b4b4, 2px 2px 0px #b4b4b4;
+	 box-shadow:2px 2px 5px #b4b4b4, 2px 2px 0px #b4b4b4;
+}
+
+.contior .mian{
+	width: 810px;
+}
+
+.contior .mian .n_top{
+	width: 790px;
+	height: 34px;
+	background-color: #505050;
+	line-height: 34px;
+	position: relative;
+	left: 10px;
+}
+.contior .mian .n_top img{
+	width: 16px;
+	height: 16px;
+}
+.contior .mian .n_top ul li{
+	padding-left: 36px;
+}
+.contior .mian .n_top ul li span{
+	color: white;
+}
+.contior .mian .n_top ul .top_reight{
+	float:  right;
+	position: relative;
+	right: 25px;
+
+}
+.contior .mian .n_top ul .top_reight a{
+	text-decoration: underline;
+}
+contior .mian .n_top ul .top_reight a span{
+	color: #3ec1f7;
+}
+
+.contior .n_table{
+	width: 790px;
+	text-align: center;
+	position: relative;
+	left: 10px;
+}
+.contior .n_table table{
+	width: 790px;
+	height: 70px;
+	border: 2px  solid #c5c5c5;
+}
+.contior .n_table .table_one{
+	background-color: #f6f6f6;
+}
+.contior .n_table table tr input{
+	width: 16px;
+	height: 16px;
+}
+
+.contior .n_table .tabel_text th{
+	font-family: "STFangsong";
+}
